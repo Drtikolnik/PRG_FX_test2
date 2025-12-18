@@ -17,7 +17,7 @@
       <ListView fx:id="ucitelListView" onEditStart="#initialize" onMouseClicked="#handleVyberUcitel" prefHeight="204.0" prefWidth="300.0" />
       <VBox prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="1">
          <children>
-            <TextField fx:id="vyucovanyPredmetField" text="jmeno" />
+            <TextField fx:id="jmenoField" text="jmeno" />
             <TextField fx:id="vyucovanyPredmetField" text="vyuc. predmet" />
             <TextField fx:id="hodnoceniField" text="hodnoceni" />
          </children>
